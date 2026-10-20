@@ -36,12 +36,3 @@ certificatesResolvers:
       keyType: EC384
       httpChallenge:
         entryPoint: web
-
-  buypass:
-    acme:
-      email: admin@webrida.com
-      storage: acme.json
-      caServer: https://api.buypass.com/acme/directory
-      keyType: EC256
-      httpChallenge:
-        entryPoint: web

@@ -12,13 +12,10 @@ http:
         stsIncludeSubdomains: true
         stsPreload: true
         stsSeconds: 31536000
-
-    # UserName : admin
-    # Password : qwer1234
     user-auth:
       basicAuth:
         users:
-          - "admin:$apr1$tm53ra6x$FntXd6jcvxYM/YH0P2hcc1"
+          - "admin:$apr1$5bg5okRi$R9ZJyfbBkyQqsZG8YzZcr/"
 
 tls:
   options:
